@@ -1,24 +1,3 @@
 # vue-ld-test
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Example repo containing Vue.js, Vuex and LaunchDarkly to reproduce issue running lighthouse scans. Run `yarn && yarn serve` to start. Running a lighthouse scan from Chrome DevTools works as normal. Add a LaunchDarkly key in the `.env` file and re-run the app and lighthouse to reproduce scans timing out.
